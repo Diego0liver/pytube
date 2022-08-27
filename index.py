@@ -3,8 +3,8 @@ import moviepy.editor as mp
 import re
 import os
 
-link = input("Link do video do YOUTUBE: ")
-path = input("Digite o diretorio da pasta salva: ")
+link = input("YouTube links: ")
+path = input("Onde deseja salvar: ")
 yt = YouTube(link)
 
 print("So um minutinho...")
